@@ -3,10 +3,10 @@ on:
   worflow_call: 
     inputs:
       who_to_greet:
-      type: string
-      description: "The person to greet"
-      required: true
-      default: World
+        type: string
+        description: "The person to greet"
+        required: true
+        default: World
     outputs:
       current-time:
         description: 'The time when greeting.'
